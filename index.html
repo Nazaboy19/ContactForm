@@ -5,6 +5,7 @@
   <title>Contact Form</title>
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
   
   
@@ -15,37 +16,51 @@
     <div class="jumbotron">
   
   <form class="form-horizontal">
+
+  <div class="form-group">
+    <label for="inputFullName" class="col-sm-2 control-label">Full Name *</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputFullName" placeholder="Full Name">
+    </div>
+  </div>
+
   <div class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
     <div class="col-sm-10">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+      <input type="password" class="form-control" id="inputEmail3" placeholder="Email">
     </div>
   </div>
-  <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+
+   <div class="form-group">
+    <label for="inputEmail4" class="col-sm-2 control-label">Confirm Email</label>
     <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+      <input type="password" class="form-control" id="inputEmail4" placeholder="Confirm Email">
     </div>
   </div>
+
   <div class="form-group">
+  <label for="inputEmail4" class="col-sm-2 control-label">Message</label>
     <div class="col-sm-offset-2 col-sm-10">
-      <div class="checkbox">
-        <label>
-          <input type="checkbox"> Remember me
-        </label>
-      </div>
+      
+      <input type="text" name="Input" id="inputBoxC" placeholder="Enter Input Message Here!">
     </div>
   </div>
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default">Sign in</button>
-    </div>
-  </div>
+  
+
+
+    <div class="btnSubmitDiv">
+    <button type="submit" class="btn btn-default" id="subBut">Submit</button>
+
+    
 </form>
   
- 
+   
+
+
+  </div>
 </div>
   </div>
   
+ <footer>Thank you</footer> 
 </body>
 </html>

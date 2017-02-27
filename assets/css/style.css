@@ -1,7 +1,16 @@
 body{
   background-color: #41D188;
+  font-family: 'Merriweather', serif;
 }
 
+
 h1{
+  text-align: center;
+}
+.btnSubmitDiv{
+text-align: center;
+}
+
+footer{
   text-align: center;
 }
